@@ -1,0 +1,12 @@
+--liquibase foramtted sql
+--changeset psroka:6
+
+CREATE TABLE COMMENT (
+    id SERIAL PRIMARY KEY,
+    account_id BIGINT NOT NULL,
+    post_id BIGINT NOT NULL,
+    content VARCHAR(255) NOT NULL,
+    creation_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    FOREIGN KEY (account_id) REFERENCES ACCOUNT(id) ON DELETE CASCADE,
+    FOREIGN KEY (post_id) REFERENCES POST(id) ON DELETE CASCADE
+);

@@ -1,0 +1,51 @@
+version: '3.8'
+
+services:
+  backend:
+    image: vataz/bussintime:latest
+    ports:
+      - "8443:8443"
+    environment:
+      SPRING_PROFILES_ACTIVE: development
+      SPRING_DATASOURCE_URL: jdbc:postgresql://db:${PSQL_SERVER_PORT}/${PSQL_SERVER_DATABASE}
+      PSQL_SERVER_USERNAME: ${PSQL_SERVER_USERNAME}
+      PSQL_SERVER_PASSWORD: ${PSQL_SERVER_PASSWORD}
+      JWT_TOKEN_KEY: ${JWT_TOKEN_KEY}
+      BASE_AUTH_USERNAME: ${BASE_AUTH_USERNAME}
+      BASE_AUTH_PASSWORD: ${BASE_AUTH_PASSWORD}
+    depends_on:
+      - db
+    networks:
+      - backend
+
+  db:
+    image: postgres:15
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_PASSWORD: ${PSQL_SERVER_PASSWORD}
+      POSTGRES_USER: ${PSQL_SERVER_USERNAME}
+      POSTGRES_DB: ${PSQL_SERVER_DATABASE}
+    volumes:
+      - postgres_data_bussinTime:/var/lib/postgresql/data
+    networks:
+      - backend
+
+  liquibase:
+    image: liquibase/liquibase:4.9.1
+    container_name: liquibase-bussintime
+    restart: on-failure
+    depends_on:
+      - db
+    volumes:
+      - ./liquibase/:/liquibase/changelog/
+    command: --url=jdbc:postgresql://db:${PSQL_SERVER_PORT}/${PSQL_SERVER_DATABASE} --username=${PSQL_SERVER_USERNAME} --password=${PSQL_SERVER_PASSWORD} --secure-parsing=false --defaults-file=liquibase.properties --changelog-file=/changelog/dbchangelog.xml update
+    networks:
+      - backend
+
+volumes:
+  postgres_data_bussinTime:
+
+networks:
+    backend:
+

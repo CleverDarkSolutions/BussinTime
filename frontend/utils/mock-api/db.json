@@ -1,0 +1,585 @@
+{
+  "users": [
+    {
+      "username": "testuser1",
+      "password": "123",
+      "name": "Janusz",
+      "age": "20",
+      "events": [1,2,4],
+      "city": "Warszawa",
+      "description": "Opis uwwww",
+      "userId": 1,
+      "email": "adasgaming1j2k@o2.pl",
+      "gender": "Mężczyzna",
+      "image": "https://www.w3schools.com/howto/img_avatar.png",
+      "gps": true,
+      "address": "Nieborowska 29/2 80-034 Gdansk",
+      "privateProfile": false,
+      "shareUsageData": true,
+      "directMessages": "everyone",
+      "chatOnlineStatus": true
+    },
+    {
+      "userId": 2,
+      "username": "testuser2",
+      "password": "123"
+    },
+    {
+      "userId": 3,
+      "username": "testuser3",
+      "password": "123"
+    },
+    {
+      "username": "janusz",
+      "password": "123",
+      "events": [],
+      "userId": 4
+    },
+    {
+      "username": "adam",
+      "password": "123",
+      "events": [],
+      "userId": 5
+    },
+    {
+      "username": "artur",
+      "password": "123",
+      "events": [],
+      "userId": 6
+    },
+    {
+      "username": "artuor",
+      "password": "123",
+      "events": [],
+      "userId": 7
+    },
+    {
+      "username": "artur",
+      "password": "123",
+      "events": [],
+      "userId": 8
+    },
+    {
+      "username": "artur",
+      "password": "123",
+      "events": [],
+      "userId": 9
+    },
+    {
+      "username": "artur",
+      "password": "123",
+      "events": [],
+      "userId": 10
+    },
+    {
+      "username": "artur",
+      "password": "123",
+      "events": [],
+      "userId": 11
+    },
+    {
+      "username": "artur",
+      "password": "123",
+      "events": [],
+      "userId": 12
+    },
+    {
+      "username": "artur",
+      "password": "123",
+      "events": [],
+      "userId": 13
+    },
+    {
+      "username": "artur",
+      "password": "123",
+      "events": [],
+      "userId": 14
+    },
+    {
+      "username": "artur",
+      "password": "123",
+      "events": [],
+      "userId": 15
+    },
+    {
+      "username": "artur",
+      "password": "123",
+      "events": [],
+      "userId": 16
+    },
+    {
+      "username": "artur",
+      "password": "123",
+      "events": [],
+      "userId": 17
+    },
+    {
+      "username": "artur",
+      "password": "123",
+      "events": [],
+      "userId": 18
+    },
+    {
+      "username": "artur",
+      "password": "123",
+      "events": [],
+      "userId": 19
+    },
+    {
+      "username": "artur",
+      "password": "123",
+      "events": [],
+      "userId": 20
+    },
+    {
+      "username": "artur",
+      "password": "123",
+      "events": [],
+      "userId": 21
+    },
+    {
+      "username": "artur",
+      "password": "123",
+      "events": [],
+      "userId": 22
+    },
+    {
+      "username": "artur",
+      "password": "123",
+      "events": [],
+      "userId": 23
+    }
+  ],
+  "posts": [
+    {
+      "title": "Tytul posta",
+      "description": "Opis posta Opis postaOpis postaOpis postaOpis postaOpis postaOpis postaOpis posta",
+      "tags": [
+        "Propozycja",
+        "Pytanie",
+        "Prośba"
+      ],
+      "isOpen": true,
+      "createdDate": "2023-11-18",
+      "comments": [
+        {
+          "content": "comment1 comment1 comment1 comment1 comment1 comment1 comment1 comment1 comment1 comment1",
+          "creator": "Adam",
+          "createdDate": "2023-11-18",
+          "reactions": [
+            {
+              "label": "Heart",
+              "icon": "Favorite",
+              "number": 10
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "label": "Heart",
+          "icon": "Favorite",
+          "number": 10
+        }
+      ],
+      "creator": "Adam"
+    },
+    {
+      "title": "Tytul posta 2",
+      "description": "Opis posta Opis postaOpis postaOpis postaOpis postaOpis postaOpis postaOpis posta",
+      "tags": [
+        "Propozycja",
+        "Pytanie",
+        "Prośba"
+      ],
+      "isOpen": true,
+      "createdDate": "2023-11-18",
+      "comments": [
+        {
+          "content": "comment1",
+          "creator": "Adam",
+          "createdDate": "2023-11-18",
+          "reactions": [
+            {
+              "label": "Heart",
+              "icon": "Favorite",
+              "number": 10
+            }
+          ]
+        },
+        {
+          "content": "comment2",
+          "creator": "Janusz",
+          "createdDate": "2023-11-18",
+          "reactions": [
+            {
+              "label": "Heart",
+              "icon": "Favorite",
+              "number": 10
+            }
+          ]
+        },
+        {
+          "content": "comment3",
+          "creator": "Artur",
+          "createdDate": "2023-11-18",
+          "reactions": [
+            {
+              "label": "Heart",
+              "icon": "Favorite",
+              "number": 10
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "label": "Heart",
+          "icon": "Favorite",
+          "number": 10
+        }
+      ],
+      "creator": "Janusz"
+    },
+    {
+      "title": "Tytul posta 3",
+      "description": "Opis posta Opis postaOpis postaOpis postaOpis postaOpis postaOpis postaOpis posta",
+      "tags": [
+        "Propozycja",
+        "Pytanie",
+        "Prośba"
+      ],
+      "isOpen": true,
+      "createdDate": "2023-11-18",
+      "comments": [],
+      "reactions": [
+        {
+          "label": "Heart",
+          "icon": "Favorite",
+          "number": 10
+        }
+      ],
+      "creator": "Artur"
+    },
+    {
+      "title": "Tytul posta 4",
+      "description": "Opis posta Opis postaOpis postaOpis postaOpis postaOpis postaOpis postaOpis posta",
+      "tags": [
+        "Propozycja",
+        "Pytanie",
+        "Prośba"
+      ],
+      "isOpen": true,
+      "createdDate": "2023-11-18",
+      "comments": [],
+      "reactions": [
+        {
+          "label": "Heart",
+          "icon": "Favorite",
+          "number": 10
+        },
+        {
+          "label": "Like",
+          "icon": "Favorite",
+          "number": 15
+        }
+      ],
+      "creator": "Artur"
+    }
+  ],
+  "events": [
+    {
+      "eventId": 1,
+      "title": "Impreza u Edka",
+      "description": "Opis Opis Opis Opis Opis Opis Opis Opis Opis Opis Opis Opis  Opis Opis Opis Opis Opis Opis Opis Opis Opis  Opis Opis Opis Opis Opis Opis Opis Opis Opis  Opis Opis Opis Opis Opis Opis aaaa",
+      "cords": [
+        53.789,
+        19.679
+      ],
+      "participants": [],
+      "tags": [
+        "Domowka",
+        "Wstęp darmowy",
+        "Do rana"
+      ],
+      "location": "Gdansk, ul. Wawelska 20",
+      "startDate": "24.08.2023",
+      "endDate": "25.08.2023",
+      "startTime": "20:00",
+      "endTime": "06:00"
+    },
+    {
+      "eventId": 2,
+      "title": "Plener malarski",
+      "description": "Opis OpisOpisOpisOpisOpisOpisOpisOpisOpisOpisOpisOpisOpisOpisOpisOpisOpis",
+      "cords": [
+        54.047,
+        17.976
+      ],
+      "participants": [
+        421,
+        231,
+        694,
+        491,
+        270,
+        114,
+        236,
+        921,
+        668,
+        432,
+        444,
+        210
+      ],
+      "tags": [
+        "18+",
+        "Plener"
+      ],
+      "location": "Gdansk, ul. Nowy Targ 41",
+      "date": "02.11.2023"
+    },
+    {
+      "eventId": 3,
+      "title": "Event 3",
+      "description": "Description 3",
+      "cords": [
+        54.853,
+        19.366
+      ],
+      "participants": [
+        421,
+        231,
+        694,
+        491,
+        241,
+        49
+      ],
+      "tags": [
+        "18+",
+        "Plener",
+        "Ostra jazda"
+      ],
+      "location": "Gdansk, ul. Targ Rybny 9/11",
+      "date": "11.10.2023"
+    },
+    {
+      "eventId": 4,
+      "title": "Event 4",
+      "description": "Description 4",
+      "cords": [
+        53.484,
+        18.719
+      ],
+      "participants": [
+        421,
+        231,
+        694,
+        491
+      ],
+      "tags": [
+        "18+",
+        "Plener"
+      ],
+      "location": "Warszawa",
+      "date": "24.08.2023"
+    },
+    {
+      "eventId": 5,
+      "title": "Event 5",
+      "description": "Description 5",
+      "cords": [
+        54.529,
+        17.615
+      ],
+      "participants": [
+        421,
+        231,
+        694,
+        491
+      ],
+      "tags": [
+        "18+",
+        "Plener"
+      ],
+      "location": "Gdansk, ul. Wawelska 20",
+      "date": "24.08.2023"
+    },
+    {
+      "eventId": 6,
+      "title": "Event 6",
+      "description": "Description 6",
+      "cords": [
+        53.472,
+        19.066
+      ],
+      "participants": [
+        421,
+        231,
+        694,
+        491
+      ],
+      "tags": [
+        "18+",
+        "Plener"
+      ],
+      "location": "Gdansk, ul. Wawelska 20",
+      "date": "24.08.2023"
+    },
+    {
+      "eventId": 7,
+      "title": "Event 7",
+      "description": "Description 7",
+      "cords": [
+        53.472,
+        19.066
+      ],
+      "participants": [
+        421,
+        231,
+        694,
+        491
+      ],
+      "tags": [
+        "18+",
+        "Plener"
+      ],
+      "location": "Gdansk, ul. Wawelska 20",
+      "date": "24.08.2023"
+    },
+    {
+      "eventId": 8,
+      "title": "Event 8",
+      "description": "Description 8",
+      "cords": [
+        53.472,
+        19.066
+      ],
+      "participants": [
+        421,
+        231,
+        694,
+        491
+      ],
+      "tags": [
+        "18+",
+        "Plener"
+      ],
+      "location": "Gdansk, ul. Wawelska 20",
+      "date": "24.08.2023"
+    },
+    {
+      "eventId": 9,
+      "title": "Event 9",
+      "description": "Description 9",
+      "cords": [
+        53.472,
+        19.066
+      ],
+      "participants": [
+        421,
+        231,
+        694,
+        491
+      ],
+      "tags": [
+        "18+",
+        "Plener"
+      ],
+      "location": "Gdansk, ul. Wawelska 20",
+      "date": "24.08.2023"
+    },
+    {
+      "eventId": 10,
+      "title": "Event 10",
+      "description": "Description 10",
+      "cords": [
+        53.472,
+        19.066
+      ],
+      "participants": [
+        421,
+        231,
+        694,
+        491
+      ],
+      "tags": [
+        "18+",
+        "Plener"
+      ],
+      "location": "Gdansk, ul. Wawelska 20",
+      "date": "24.08.2023"
+    },
+    {
+      "eventId": 11,
+      "title": "Event 11",
+      "description": "Description 11",
+      "cords": [
+        53.472,
+        19.066
+      ],
+      "participants": [
+        421,
+        231,
+        694,
+        491
+      ],
+      "tags": [
+        "18+",
+        "Plener"
+      ],
+      "location": "Gdansk, ul. Wawelska 20",
+      "date": "24.08.2023"
+    },
+    {
+      "eventId": 12,
+      "title": "Event 12",
+      "description": "Description 12",
+      "cords": [
+        53.472,
+        19.066
+      ],
+      "participants": [
+        421,
+        231,
+        694,
+        491,
+        270,
+        114,
+        236,
+        921,
+        668,
+        432,
+        444,
+        210
+      ],
+      "tags": [
+        "18+",
+        "Plener"
+      ],
+      "location": "Gdansk, ul. Wawelska 20",
+      "date": "24.08.2023"
+    }
+  ],
+  "paymentMethods": [
+    {
+      "paymentMethodId": 1,
+      "name": "Mastercard",
+      "number": "1234 5678 9012 3456",
+      "expirationDate": "12/23",
+      "cvv": "123",
+      "icon": "CreditCard"
+    },
+    {
+      "paymentMethodId": 2,
+      "name": "Visa",
+      "number": "1234 5678 9012 3456",
+      "expirationDate": "12/26",
+      "cvv": "123",
+      "icon": "CreditCard"
+    }
+  ],
+  "tags": [
+    "Domowka",
+    "Wstęp darmowy",
+    "Do rana"
+  ]
+}
