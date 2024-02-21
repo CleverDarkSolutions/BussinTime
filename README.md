@@ -1,4 +1,4 @@
-#Introduction
+# Introduction
 This is my graduation project. It's a social media app centered around creating events and making new friends. I am responsible for web application, while my 2 other friends are responsible for mobile and backend.
 It has the following features:
 - Interactive map based on OpenStreetMaps
@@ -9,7 +9,7 @@ It has the following features:
 - Payment system using Stripe
 - Event feedback system
 
-#WARNING - this version is currently set to run on an internal university server for thesis presentation purposes, so it is unable to be run for a brief while. Ultimately it will be deployed on a remote server accessible for everyone to test the application.
+# WARNING - this version is currently set to run on an internal university server for thesis presentation purposes, so it is unable to be run for a brief while. Ultimately it will be deployed on a remote server accessible for everyone to test the application.
 
 # Prerequisites to run application
 1. Install docker - https://docs.docker.com/get-docker/
